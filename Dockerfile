@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Default command (main.py run hoga)
-CMD ["python", "main.py"]
+CMD ["python", "app.py"]
